@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+  <h3>Що літає?</h3>
+  <label>
+    <select multiple size="6" name="name">
+      <option value="option1" id="options1" ondblclick="fun1()">Літак</option>
+      <option value="option2" id="options2" ondblclick="fun()">М'яч</option>
+      <option value="option3" id="options3" ondblclick="fun()">Кішка</option>
+      <option value="option4" id="options4" ondblclick="fun()">Корабель</option>
+      <option value="option5" id="options5" ondblclick="fun()">Слон</option>
+      <option value="option6" id="options6" ondblclick="fun()">Машина</option>
+    </select>
+  </label>
+</form>
+</body>
+<script type="text/javascript" language = "JavaScript">
+  function fun(){
+    alert('Не правильно!')
+  }
+
+  function fun1(){
+    alert('Правильна відповідь')
+  }
+</script>
+</html>

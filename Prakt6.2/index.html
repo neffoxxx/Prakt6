@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="img">
+        <h2>Оберіть логічний елемент, що описує графічний об'єкт</h2>
+        <img src="img.png" alt="image">
+        <h4>OR</h4>
+        <img src="img2.png" alt="image">
+    </div>
+    <form>
+        <h3>Виберіть відповідь</h3>
+        <input type="radio"  id="options1" onclick="fun()">Елемент 1 (кон'юкція)</input>
+        <br>
+        <input type="radio"  id="options2" onclick="fun()">Елемент АБО (диз'юкція)</input>
+        <br>
+        <input type="radio"  id="options3" onclick="fun()">Елемент ВИКЛЮЧАЮЧЕ АБО (нерівнозначність)</input>
+        <br>
+        <input type="radio"  id="options4" onclick="fun()">Елемент АБО-НЕ (Стрілка Пірса)</input>
+        <br>
+        <input type="radio"  id="options5" onclick="fun()">Елемент І-НЕ (штрих Шеффера)</input>
+        <br>
+        <input type="radio"  id="options6" onclick="fun1()">Елемент Виключаюче АБО-НЕ (рівнозначність)</input>
+        <br>
+        <button id="button">Очистити</button>
+    </form>
+</body>
+<SCRIPT type="text/javascript" language="JavaScript">
+    function fun(){
+        alert('Не правильно!')
+    }
+    function fun1(){
+        alert('Правильна відповідь!')
+    }
+</SCRIPT>
+</html>
